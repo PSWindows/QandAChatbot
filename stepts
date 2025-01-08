@@ -1,0 +1,15 @@
+langchain-openai
+langchain
+python-dotenv
+langchain_community
+langchain_core
+streamlit
+
+setx PATH "%PATH%;C:\ProgramData\anaconda3\Scripts" /M
+
+conda create -p venv python==3.10 -y
+conda init
+conda activate C:\MyTest\venv
+
+
+pip install -r requirements.txt
